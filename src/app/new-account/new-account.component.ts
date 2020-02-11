@@ -1,5 +1,7 @@
 import { Component, EventEmitter, Output } from '@angular/core';
 
+import { LoggingService } from '../logging.service'
+
 @Component({
   selector: 'app-new-account',
   templateUrl: './new-account.component.html',
